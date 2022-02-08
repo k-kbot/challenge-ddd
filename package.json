@@ -33,8 +33,10 @@
     }
   },
   "lint-staged": {
-    "./src/**/*.{js,ts}'": [
-      "npm run lint-fix"
-    ]
+    "linters": {
+      "./src/**/*.{js,ts}'": [
+        "npm run lint-fix"
+      ]
+    }
   }
 }
