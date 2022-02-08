@@ -1,10 +1,7 @@
 const greet = (greet: string) => {
-  console.log(greet);
-
-
-
-
-
+   console.log(greet);
 }
+
+
 
 greet('hello');
