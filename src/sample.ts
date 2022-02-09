@@ -1,7 +1,5 @@
-const greet = (greet: string) => {
-   console.log(greet);
+export const greet = (greet: string): string => {
+  return greet
 }
 
-
-
-greet('hello');
+greet('hello')
