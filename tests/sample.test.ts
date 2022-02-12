@@ -1,4 +1,4 @@
-import { greet } from '../src/sample'
+import { greet } from 'sample'
 
 it('should return greet', () => {
   const result = greet('hello')
