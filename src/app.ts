@@ -7,7 +7,7 @@ const port = 3000
 
 app.get('/teams', async (req, res) => {
   const teamQS = new TeamQS(new PrismaClient())
-  
+
   res.json(await teamQS.getAll())
 })
 
